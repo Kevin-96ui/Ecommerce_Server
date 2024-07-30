@@ -6,7 +6,7 @@ const {
   createProducts,
   deleteProducts,
   updateProducts,
-} = require("../controller/product.controller.js");
+} = require("../Controller/product.controller.js");
 
 router.get("/", getProducts);
 router.get("/:email", AllProduct);

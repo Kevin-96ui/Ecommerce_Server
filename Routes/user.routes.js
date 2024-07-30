@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const {getUsers, getUser,createUser, deleteUser, updateUser}=require('../controller/user.controller.js')
+const {getUsers, getUser,createUser, deleteUser, updateUser}=require('../Controller/user.controller.js')
 
 router.get('/',getUsers);
 router.get('/:id',getUser);
